@@ -10,8 +10,8 @@ body {
 main {
   background-color: white;
   display: flow-root;
-  width: 700px;
-  margin: 0 auto;
+  width: 750px;
+  margin: 80px auto;
   border-radius: 10px;
   font-family: "Outfit", sans-serif;
   padding: 5%;
@@ -49,18 +49,47 @@ h3 {
   border-radius: 10px;
   padding: 10px;
 }
+.preparation ul {
+  padding-left: 30px;
+}
+.ingredients ul {
+  padding-left: 17px;
+}
+.instructions ol {
+  padding-left: 17px;
+}
 li {
   padding-left: 20px;
 }
 .preparation li::marker {
   color: hsl(332, 51%, 32%);
 }
-.instructions .ingredients li::marker {
+li::marker {
   color: hsl(14, 45%, 36%);
+}
+ol li::marker {
+  font-weight: 750;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+table tr {
+  border-bottom: 1px solid hsl(0, 0%, 0%, 0.1);
+}
+table td {
+  padding-left: 30px;
+  width: 200px;
+}
+table th {
+  color: hsl(14, 45%, 36%);
+  font-weight: 650;
 }
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin: 50px auto;
+  font-size: 14px;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
