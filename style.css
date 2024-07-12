@@ -1,3 +1,63 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  color: hsl(30, 10%, 34%);
+  background-color: hsl(30, 54%, 90%);
+  font-weight: 400;
+}
+
+main {
+  background-color: white;
+  display: flow-root;
+  width: 700px;
+  margin: 0 auto;
+  border-radius: 10px;
+  font-family: "Outfit", sans-serif;
+  padding: 5%;
+  line-height: 30px;
+}
+.food-img {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+  margin: -15px auto 40px;
+}
+h1,
+h2 {
+  font-family: "Young Serif", serif;
+}
+
+h1 {
+  color: hsl(0, 0%, 0%, 0.7);
+  font-weight: 700;
+}
+h2 {
+  color: hsl(14, 45%, 36%);
+}
+hr {
+  border-color: hsl(0, 0%, 0%, 0.1);
+}
+h3 {
+  color: hsl(332, 51%, 32%);
+  padding-left: 15px;
+}
+.preparation {
+  background-color: hsl(330, 100%, 98%);
+  width: 100%;
+  margin: auto;
+  border-radius: 10px;
+  padding: 10px;
+}
+li {
+  padding-left: 20px;
+}
+.preparation li::marker {
+  color: hsl(332, 51%, 32%);
+}
+.instructions .ingredients li::marker {
+  color: hsl(14, 45%, 36%);
+}
 .attribution {
   font-size: 11px;
   text-align: center;
