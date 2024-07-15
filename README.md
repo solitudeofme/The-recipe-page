@@ -1,5 +1,5 @@
-🌐Link:https:https://the-recipe-page-u7zi.vercel.app/
-
+Click [here](https:https://the-recipe-page-u7zi.vercel.app/
+) to see demo
 
 
 # Frontend Mentor - Recipe page
